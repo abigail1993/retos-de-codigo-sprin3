@@ -1,0 +1,47 @@
+/* @media (max-width: 1800px) {
+  .col-12 {
+    background-image: url(../assets/images/sunny-day.jpg);
+    width: 100%;
+  }
+
+  .gatito1 {
+    width: 50%;
+  }
+}*/
+
+
+@media (max-width: 930px) {
+  .col-12 {
+    background-image: url(../assets/images/night.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .gatito2 {
+    display: block;
+    width: 50%;
+  }
+  .gatito1, .gatito3 {
+    display: none;
+  }
+
+}
+
+@media (max-width: 780px) {
+  .col-12 {
+    background-image: url(../assets/images/dawn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .gatito3 {
+    display: block;
+    width: 50%;
+  }
+
+  .gatito1, .gatito2 {
+    display: none;
+  }
+
+}

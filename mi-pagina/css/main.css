@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+[class*="col-"]{
+  float: left;
+  padding: 20px;
+}
+
+body {
+  width: 100%;
+
+}
+
+.contenedor {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+.fila {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.col-12 {
+  width: 100%;
+
+
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 33.333333%;
+
+}
+
+.col-3 {
+  width: 25%;
+}
+
+img {
+  width: 70%;
+  margin-left: 20%;
+}
+
+span {
+  margin: 10px;
+}
+
+#imagen-grande {
+  background-image: url(../assets/images/malabares1.png);
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 1920px;
+}
+
+p {
+  text-align: center;
+  padding: 20px;
+}
+
+span,
+p,
+h6,
+h1{
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+#final {
+  background-color: black;
+  color: white;
+
+}

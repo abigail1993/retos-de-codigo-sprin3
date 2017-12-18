@@ -1,0 +1,26 @@
+@media screen and (min-width: 780px)and(max-width:1024px){
+  .contenedor {
+    background: blue;
+  }
+  .col-9, .col-3, .col-4, .col-12 {
+    width: 50%;
+  }
+
+}
+
+@media screen and (min-width: 480px)and(max-width:780px){
+  .contenedor {
+    background: blue;
+  }
+  .col-9, .col-, .col-4, .col-12 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:480px){
+  .contenedor {
+    height: 80%;
+  }
+  .col-9, .col-, .col-4, .col-12 {
+    width: 100%;
+}

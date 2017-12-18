@@ -1,0 +1,23 @@
+.col-12 {
+  background-image: url(../assets/images/sunny-day.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 768px;
+  width: 100%;
+
+}
+
+.gatito1 {
+  display: block;
+}
+
+.gatito2, .gatito3 {
+  display: none;
+}
+
+img {
+  width: 45%;
+  padding: 307px;
+
+
+}
